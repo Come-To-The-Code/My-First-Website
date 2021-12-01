@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #222;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 75px;
+  background-color: red;
+}
+
+main {
+  flex: 1 0 auto;
+  padding: 32px;
+}
+
+section {
+  padding-top: 32px;
+}
+
+footer {
+  height: 100px;
+  background-color: #222;
+}
